@@ -1,0 +1,23 @@
+.title__network__item{
+    display: flex;
+}
+
+.redes {
+    width: 25px;
+}
+
+.btn-red {
+    width: 8rem;
+    height: 30px;
+    border: 2px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    border-radius: 1.2rem;
+    -webkit-border-radius: 1.2rem;
+    -moz-border-radius: 1.2rem;
+    -ms-border-radius: 1.2rem;
+    -o-border-radius: 1.2rem;
+    background: rgb(84, 171, 143);
+}

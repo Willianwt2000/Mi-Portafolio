@@ -1,0 +1,7 @@
+.title__subsection {
+    display: flex;
+    flex-wrap: wrap;
+    
+    color: #141010cb;
+    font-size: 1.4em;
+}

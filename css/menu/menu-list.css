@@ -1,0 +1,6 @@
+.menu__list {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+    gap: 10px;
+}
