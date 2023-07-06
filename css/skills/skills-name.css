@@ -1,0 +1,11 @@
+
+
+
+.skills__name {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: #222222;
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+}

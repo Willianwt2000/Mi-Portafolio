@@ -1,0 +1,5 @@
+.about__paragraph {
+    display: flex;
+    margin: 1em 2.5em;
+    color: #2f632c;
+}
