@@ -7,8 +7,9 @@ coloque nas sessões indicadas*/
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
---cor-de-fundo: rgb(160, 218, 238);
+--cor-de-fundo: #7bdfed;
 --cor-de-link: #000;
+--color-fondo: linear-gradient(to bottom right, #475dda, #18d3d3);;
 }
 
 body {

@@ -1,13 +1,5 @@
-.about__container {
-    /*display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-    background: #6df4f6;
-    width: 60rem;
-    height: 40vh;
-    */display: flex;
+.hobbies {
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
