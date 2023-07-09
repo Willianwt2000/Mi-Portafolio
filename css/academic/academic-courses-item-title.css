@@ -1,0 +1,9 @@
+.academic__courses__item__title {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: var(--cor-de-link);
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+}

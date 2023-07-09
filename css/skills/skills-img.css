@@ -1,6 +1,24 @@
 .skills__img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    top: 25px;
+    right: 50px;
     width: 6rem;
+    /* transition: transform all 3s ease ;
+    -webkit-transition: transform all 3s ease ;
+    -moz-transition: transform all 3s ease ;
+    -ms-transition: transform all 3s ease ;
+    -o-transition: transform all 3s ease ; */
 }
+/* .skills__box .skills__img {
+    width: 100%;
+    height: auto;
+} */
+
+
+/* .skills__img .img__logo:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+} */

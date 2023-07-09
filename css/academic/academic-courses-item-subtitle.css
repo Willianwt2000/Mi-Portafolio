@@ -1,0 +1,7 @@
+.academic__courses__item__subtitle {
+    font-size: 1.5rem;
+    color: var(--cor-de-link);
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+}
