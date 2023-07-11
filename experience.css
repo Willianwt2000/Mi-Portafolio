@@ -1,0 +1,19 @@
+.experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 0 0 33.33%;
+    height: 15rem;
+    background: var(--color-fondo);
+    width: 95%;
+    min-height: 100vh;
+    padding: 40px;
+    border-radius: 9% 12% 9% 12%;
+    -webkit-border-radius: 9% 12% 9% 12%;
+    -moz-border-radius: 9% 12% 9% 12%;
+    -ms-border-radius: 9% 12% 9% 12%;
+    -o-border-radius: 9% 12% 9% 12%;
+}
