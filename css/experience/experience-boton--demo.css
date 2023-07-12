@@ -1,0 +1,28 @@
+.experience__boton--demo{
+    width: 15rem;
+    height: 2rem;
+    background-color: rgba(156, 138, 138, 0.651);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+
+.experience__boton--demo:hover {
+    background: var(--color-fondo);
+    color: rgba(0, 0, 0, 0.479);
+}

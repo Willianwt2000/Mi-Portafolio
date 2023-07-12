@@ -7,9 +7,10 @@ coloque nas sessões indicadas*/
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
---cor-de-fundo: #7bdfed;
+--cor-de-fundo: rgba(48, 55, 58, 0.219);
 --cor-de-link: #000;
 --color-fondo: linear-gradient(to bottom right, #475dda, #18d3d3);;
+--titulo-noto-sans:'Noto Sans KR', sans-serif;
 }
 
 body {

@@ -1,7 +1,6 @@
-.title__container {
+.experience__demo {
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
 }

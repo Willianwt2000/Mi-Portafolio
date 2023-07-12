@@ -1,0 +1,11 @@
+.experience__repo {
+    border: none;
+    border-radius: 4%;
+    -webkit-border-radius: 4%;
+    -moz-border-radius: 4%;
+    -ms-border-radius: 4%;
+    -o-border-radius: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

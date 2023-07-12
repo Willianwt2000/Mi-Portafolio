@@ -1,0 +1,8 @@
+.experience__description {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}

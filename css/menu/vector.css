@@ -1,3 +1,4 @@
-.vector {
-    display: flexx;
+.menu__header .vector {
+    margin-left: 5rem;
+    display: flex;
 }

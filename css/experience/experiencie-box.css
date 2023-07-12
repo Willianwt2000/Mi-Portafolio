@@ -1,7 +1,8 @@
 .experiencie__box {
-    margin: 5 2rem 2rem ;
+    height: 20rem;
     border-radius: 5px;
-    padding: 2.5rem 2rem 2rem 2rem;
+    margin-top: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     
     text-align: center;
     background-color: rgba(51, 51, 51, 0.5);
@@ -23,22 +24,3 @@
     -o-transform: scale(1.1);
 }
 
-/* .experience__box:hover {
-    background-color: #f1f1f1;
-}
-
-@keyframes bounce {
-0% {
-    transform: translateY(0);
-}
-50% {
-    transform: translateY(-10px);
-}
-100% {
-    transform: translateY(0);
-}
-}
-
-.experience__box {
-animation: bounce 2s infinite;
-} */

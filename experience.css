@@ -1,10 +1,10 @@
 .experience{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     flex: 0 0 33.33%;
     height: 15rem;
     background: var(--color-fondo);
@@ -16,4 +16,5 @@
     -moz-border-radius: 9% 12% 9% 12%;
     -ms-border-radius: 9% 12% 9% 12%;
     -o-border-radius: 9% 12% 9% 12%;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
 }
