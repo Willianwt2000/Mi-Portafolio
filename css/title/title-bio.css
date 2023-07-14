@@ -1,7 +1,9 @@
 .title__bio {
     display: flex;
     font-size: 2.5em;
+    width: 50vw;
     font-weight: 800;
     color: #141313c6;
     margin-left: 1rem;
+    text-align: center;
 }

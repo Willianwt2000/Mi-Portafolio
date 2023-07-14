@@ -1,0 +1,14 @@
+.formcontato__form {
+    margin: 0 auto;
+    max-width: 50rem;
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+input {
+        margin: 0 0 2rem 0;
+        padding: 1.3rem;
+        background-color: rgba(34, 34, 34, 0.783);
+    }

@@ -1,0 +1,19 @@
+
+.formcontato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15rem;
+    background: var(--color-fondo);
+    width: 95%;
+    min-height: 100vh;
+    padding: 40px;
+    margin: 3rem 0 3rem 0;
+    border-radius: 9% 12% 9% 12%;
+    -webkit-border-radius: 9% 12% 9% 12%;
+    -moz-border-radius: 9% 12% 9% 12%;
+    -ms-border-radius: 9% 12% 9% 12%;
+    -o-border-radius: 9% 12% 9% 12%;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+}

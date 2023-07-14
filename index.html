@@ -78,13 +78,24 @@
     <link rel="stylesheet" href="css/experience/experience-demo.css">
     <link rel="stylesheet" href="css/experience/experience-boton--demo.css">
     <!-- Sección de Contacto -->
-    
+    <link rel="stylesheet" href="formcontato.css">
+    <link rel="stylesheet" href="css/formcontato/formcontato-contacto.css">
+    <link rel="stylesheet" href="css/formcontato/formcontato-text/formcontato-botao.css">
+    <link rel="stylesheet" href="css/formcontato/formcontato-text/formcontato-form.css">
+    <link rel="stylesheet" href="css/formcontato/formcontato-text/formcontato-input.css">
+    <link rel="stylesheet" href="css/formcontato/formcontato-text/formcontato-subtext.css">
+    <link rel="stylesheet" href="css/formcontato/formcontato-text/formcontato-text.css">
+    <link rel="stylesheet" href="css/formcontato/formcontato-text/formcontato-textarea.css">
+    <link rel="stylesheet" href="css/formcontato/formcontato-text/formcontato-title.css">
+    <!-- footer -->
+    <link rel="stylesheet" href="css/footer/footer.css">
+    <link rel="stylesheet" href="css/footer/footer-rodapie.css">
     <title> Willian Dev-Portafolio</title>
 </head>
 <body>
     <!-- Sección del Menú  -->
     <div class="tudo">
-    <section class="menu">
+    <section class="menu" id="menu">
         <header class="menu__header">
             <img class="vector" src="assets\vector.png">
             <h3 class="menu__title">Willian Metelien</h3>
@@ -92,7 +103,7 @@
         <nav>
             <ul class="menu__list">
                 <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
-                <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a href="#skills">Habilidades</a></li>
                 <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
                 <li class="menu__list__item"><a href="#formacion">Formación</a></li>
                 <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
@@ -110,7 +121,7 @@
                 <h2 class="title__bio">Hola, soy willian Metelien.
                     Programador,Desarrollador de Softweare
                 </h2>
-                <h3 class="title__subsection">Apasionado por la programación, el desarrollo y diseño web.
+                <h3 class="title__subsection">Apasionado por la programación, el desarrollo web y diseño web para suplir necesidades que son importantes para las personas.
                 Actualmente curso la formación Front-End del programa ONE con Alura Latam.</h3>
                 <ul class="title__menu__list__iteme__network">
                     <!-- Pon los enlaces de tus redes sociales favoritas -->
@@ -125,20 +136,24 @@
 
     <!-- Sección sobre mi -->
     <section class="about" id="sobre-mi">
+        
         <div class="about__container">
             <h3 class="about__title">Sobre mi</h3>
-            <p class="about__paragraph">¡Hola! So Willian . llevo estudiando programacion desde el 2021, estoy emocionado por aprender y explorar el fascinante mundo de la codificación. Me encanta desafiarme a mí mismo y adquirir nuevas habilidades para resolver problemas de manera eficiente. </p>
-            <p class="about__paragraph">Estoy listo para enfrentar los desafíos que se presenten en el camino y aprovechar todas las oportunidades para mejorar mis habilidades. Estoy ansioso por ver cómo mi conocimiento y experiencia en programación continúan creciendo y cómo puedo contribuir a la comunidad de desarrollo.</p>
+            <div class="about__container-2">
+                
+                <p class="about__paragraph">¡Hola! Soy Willian . llevo estudiando programacion desde el 2021, estoy emocionado por aprender y explorar el fascinante mundo de la codificación. Me encanta desafiarme a mí mismo y adquirir nuevas habilidades para resolver problemas de manera eficiente. </p>
+                <p class="about__paragraph">Estoy listo para enfrentar los desafíos que se presenten en el camino y aprovechar todas las oportunidades para mejorar mis habilidades. Estoy ansioso por ver cómo mi conocimiento y experiencia en programación continúan creciendo y cómo puedo contribuir a la comunidad de desarrollo.</p>
 
-            <p class="about__paragraph">
-                Mi enfoque principal es aprender y crecer en un entorno profesional. Estoy ansioso por trabajar en equipo con programadores y desarrolladores experimentados y adquirir experiencia práctica en el campo. Soy adaptable, abierto a recibir comentarios y siempre busco oportunidades para desafiarme y crecer como profesional del desarrollo web.
-            </p>
+                <p class="about__paragraph">
+                    Mi enfoque principal es aprender y crecer en un entorno profesional. Estoy ansioso por trabajar en equipo con programadores y desarrolladores experimentados y adquirir experiencia práctica en el campo. Soy adaptable, abierto a recibir comentarios y siempre busco oportunidades para desafiarme y crecer como profesional del desarrollo web.
+                </p>
 
-            <p class="about__paragraph">
-                Estoy emocionado por lo que el futuro me depara en este apasionante campo de la programación y estoy dispuesto a trabajar arduamente para alcanzar mis metas y convertirme en un programador habilidoso!
-            </p>
-            <!-- Si quieres, pon tú firma acá!
-            <img src="assets\signature.png"> -->
+                <p class="about__paragraph">
+                    Estoy emocionado por lo que el futuro me depara en este apasionante campo de la programación y estoy dispuesto a trabajar arduamente para alcanzar mis metas y convertirme en un programador habilidoso!
+                </p>
+                
+            </div>
+            <img src="assets/img-2compu.jpg" alt="imagen compu" class="compu">
         </div>
     </section>
 
@@ -362,28 +377,21 @@
     <!-- Sección de Contacto -->
     <section class="formcontato" id="contacto">
         <div  class="formcontato__contacto">
-            <div class="formcontato--esquerda">
-                <img class="formcontato__img" src="assets\contact_image.png">
-            </div>
-            <div class="formcontato__text">
                 <h2 class="formcontato__title">Contacto</h2>
-                <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
-                <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
+                <p class="descripcion">¿Buscas respuestas rápidas y soluciones efectivas? Estamos a un mensaje de distancia. ¡Contáctanos ahora!</p>
                 <form class="formcontato__form" name="form">
                     <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
                     <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                    <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
                     <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
-                    <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                    <button type="submit" class="formcontato__botao" )">Enviar mensaje</button>
                 </form>
-            </div>
         </div>
     </section>
         <!-- Sección de Footer -->
         <section class="footer">
-            <div class="footer__rodape">
-                <p>Desarrollado por Fulana de Tal</p>
-                <p>2022</p>
+            <div class="footer__rodapie">
+                <p>&copyDesarrollado por Willian metelien - 2023</p>
+                <p>Todos los derechos reservados.</p>
             </div>
         </section>
     

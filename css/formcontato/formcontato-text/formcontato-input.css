@@ -1,0 +1,25 @@
+
+
+.formcontato__input{
+    width: 65%;
+    height: .3rem;
+    border: none;
+    font-size: 1.5rem;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.4);
+}
+
+input {
+    margin: 0 0 1rem 0;
+    padding: 1.3rem;
+    background-color: rgba(34, 34, 34, 0.783);
+}
+
+
