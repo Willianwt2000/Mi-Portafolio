@@ -5,7 +5,8 @@
     align-items: center;
     flex-direction: column;
     height: 15rem;
-    background: var(--color-fondo);
+    background-image: url(assets/contacto-img.jpg);
+    background-size: cover;
     width: 95%;
     min-height: 100vh;
     padding: 40px;

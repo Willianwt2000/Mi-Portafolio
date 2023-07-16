@@ -3,8 +3,9 @@
 
 .skills__name {
     font-size: 1.5rem;
+    font-weight: bold;
     margin-top: 2rem;
-    color: var(--cor-de-link);
+    color: #ffffff;
     display: flex;
     justify-content: center;
     position: relative;

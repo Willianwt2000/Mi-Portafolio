@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     
-    color: #141010cb;
+    color: var(--color-text);
     font-size: 1.4em;
     width: 60vw;
     text-align: center;

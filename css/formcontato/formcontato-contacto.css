@@ -7,9 +7,5 @@
     flex-direction: column;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.4);
-    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.541), rgba(135, 136, 136, 0.699));
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+    background-image: linear-gradient(to bottom right, rgba(141, 148, 139, 0.726), rgba(135, 136, 136, 0.699));
 }

@@ -4,7 +4,8 @@
     align-items:flex-start;
     flex-direction: column;
     height: 15vh;
-    background: var(--color-fondo);
+    background-image: url(/assets/programer.jpg);
+    background-size: cover;
     width: 95%;
     min-height: 100vh;
     padding: 40px;
